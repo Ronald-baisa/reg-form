@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration</title>
+</head>
+<style>
+body {
+  margin: 0;
+}
+.container {
+  background-image: url("bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+  top: -15px;
+}
+.input {
+  position: relative;
+  top: 200px;
+}
+ul{
+  background-color: lightpink;
+  height: 50px;
+}
+ul {
+  
+  list-style-type: none;
+  font-family: "Times New Roman";
+}
+li a{
+  text-decoration: none;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#title {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 40px;
+  position: relative;
+  top: 190px;
+}
+#Fname,#Lname,#address,#Cnumber {
+  width: 250px;
+  height: 35px;
+  margin: 10px;
+  border: solid 3px pink;
+  background: transparent;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+#email,#username,#pass {
+  width: 530px;
+  height: 35px;
+  margin: 10px;
+  border: solid 3px pink;
+  background: transparent;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+label {
+  font-family: "Times New Roman";
+}
+#btn{
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  border: solid 3px pink;
+  cursor: pointer;
+  background: #ffffff;
+  font-family: "Times New Roman";
+}
+</style>
+<body> 
+<div class="container">
+    <nav class="menu">
+  <ul>
+   <li><a  href="#">PET MANSION</a></li>
+   </ul>
+   <h1 id="title">Create Your Account!</h1>
+      
+      <div class="form">
+    <center><form class="input" >
+    <input type="text" id="Fname" placeholder="First name"required>
+  <input type="text" id="Lname" placeholder="Last name" required>
+  <br>
+  <input  type="text" id="address" placeholder="Address" required>
+  <input  type="number" id="Cnumber" placeholder="Contact number" required>
+  <br>
+  <input  type="email" id="email" placeholder="Email address" required>
+  <br>
+  <input  type="text" id="username" placeholder="Username" required>
+   <br>
+  <input  type="password" id="pass" placeholder="Password" required><br>
+  <input  type="checkbox" id="checkbox" required>
+    <label>I agree to the Terms of Service and Privacy Policy.</label>
+    
+  <br><input id="btn" type="submit" value="SIGN UP">
+</form></center>
+</div>
+</div>
+</body>
+</html>
